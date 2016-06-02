@@ -1,0 +1,44 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F88C1A5A650B6D7B6919F6B921481B8E40E56068+++511EC3F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F88C1A5A650B6D7B6919F6B921481B8E40E56068+++28C310B" : 0,
+    "F88C1A5A650B6D7B6919F6B921481B8E40E56068+++511EC3F" : 0,
+    "F88C1A5A650B6D7B6919F6B921481B8E40E56068+++1D4A701" : 0,
+    "F88C1A5A650B6D7B6919F6B921481B8E40E56068+++3E061CA" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F66C1097-F59E-4E4F-BF26-73EEC179DB10",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F88C1A5A650B6D7B6919F6B921481B8E40E56068+++28C310B" : "",
+    "F88C1A5A650B6D7B6919F6B921481B8E40E56068+++511EC3F" : "quizaboutme\/",
+    "F88C1A5A650B6D7B6919F6B921481B8E40E56068+++1D4A701" : "QuizProgram\/",
+    "F88C1A5A650B6D7B6919F6B921481B8E40E56068+++3E061CA" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "QuizProgram",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "QuizProgram.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/jinmc\/quizaboutme.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F88C1A5A650B6D7B6919F6B921481B8E40E56068+++1D4A701"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/jinmc\/quizaboutme.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F88C1A5A650B6D7B6919F6B921481B8E40E56068+++28C310B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/jinmc\/quizaboutme.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F88C1A5A650B6D7B6919F6B921481B8E40E56068+++3E061CA"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/jinmc\/quizaboutme.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F88C1A5A650B6D7B6919F6B921481B8E40E56068+++511EC3F"
+    }
+  ]
+}
