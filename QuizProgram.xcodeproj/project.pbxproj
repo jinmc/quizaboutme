@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B6DF48B1CFF46C9007E2B81 /* NameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6DF48A1CFF46C9007E2B81 /* NameViewController.swift */; };
+		2B6DF48F1CFF4799007E2B81 /* FactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6DF48E1CFF4799007E2B81 /* FactViewController.swift */; };
+		2B8C42471D00706F008D9630 /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8C42461D00706F008D9630 /* PlayViewController.swift */; };
+		2B8C42491D007953008D9630 /* FailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8C42481D007953008D9630 /* FailViewController.swift */; };
+		2B8C424B1D007CC2008D9630 /* SuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8C424A1D007CC2008D9630 /* SuccessViewController.swift */; };
 		3C8C3E061CF3960E0032548C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8C3E051CF3960E0032548C /* AppDelegate.swift */; };
 		3C8C3E081CF3960E0032548C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8C3E071CF3960E0032548C /* ViewController.swift */; };
 		3C8C3E0B1CF3960E0032548C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C8C3E091CF3960E0032548C /* Main.storyboard */; };
@@ -34,6 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B6DF43F1CFF3320007E2B81 /* QuizProgram-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QuizProgram-Bridging-Header.h"; sourceTree = "<group>"; };
+		2B6DF48A1CFF46C9007E2B81 /* NameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NameViewController.swift; path = ../NameViewController.swift; sourceTree = "<group>"; };
+		2B6DF48E1CFF4799007E2B81 /* FactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FactViewController.swift; path = ../FactViewController.swift; sourceTree = "<group>"; };
+		2B8C42461D00706F008D9630 /* PlayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlayViewController.swift; path = ../PlayViewController.swift; sourceTree = "<group>"; };
+		2B8C42481D007953008D9630 /* FailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FailViewController.swift; sourceTree = "<group>"; };
+		2B8C424A1D007CC2008D9630 /* SuccessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuccessViewController.swift; sourceTree = "<group>"; };
 		3C8C3E021CF3960E0032548C /* QuizProgram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuizProgram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C8C3E051CF3960E0032548C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3C8C3E071CF3960E0032548C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,12 +108,18 @@
 		3C8C3E041CF3960E0032548C /* QuizProgram */ = {
 			isa = PBXGroup;
 			children = (
+				2B6DF48A1CFF46C9007E2B81 /* NameViewController.swift */,
+				2B8C42481D007953008D9630 /* FailViewController.swift */,
+				2B8C42461D00706F008D9630 /* PlayViewController.swift */,
+				2B6DF48E1CFF4799007E2B81 /* FactViewController.swift */,
 				3C8C3E051CF3960E0032548C /* AppDelegate.swift */,
 				3C8C3E071CF3960E0032548C /* ViewController.swift */,
 				3C8C3E091CF3960E0032548C /* Main.storyboard */,
+				2B8C424A1D007CC2008D9630 /* SuccessViewController.swift */,
 				3C8C3E0C1CF3960E0032548C /* Assets.xcassets */,
 				3C8C3E0E1CF3960E0032548C /* LaunchScreen.storyboard */,
 				3C8C3E111CF3960E0032548C /* Info.plist */,
+				2B6DF43F1CFF3320007E2B81 /* QuizProgram-Bridging-Header.h */,
 			);
 			path = QuizProgram;
 			sourceTree = "<group>";
@@ -187,7 +204,7 @@
 		3C8C3DFA1CF3960E0032548C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0720;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = Jinmo;
 				TargetAttributes = {
@@ -256,8 +273,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B6DF48F1CFF4799007E2B81 /* FactViewController.swift in Sources */,
+				2B8C424B1D007CC2008D9630 /* SuccessViewController.swift in Sources */,
+				2B8C42471D00706F008D9630 /* PlayViewController.swift in Sources */,
 				3C8C3E081CF3960E0032548C /* ViewController.swift in Sources */,
 				3C8C3E061CF3960E0032548C /* AppDelegate.swift in Sources */,
+				2B8C42491D007953008D9630 /* FailViewController.swift in Sources */,
+				2B6DF48B1CFF46C9007E2B81 /* NameViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,10 +419,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = QuizProgram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.thenewjmc.QuizProgram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "QuizProgram/QuizProgram-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -408,10 +433,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = QuizProgram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.thenewjmc.QuizProgram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "QuizProgram/QuizProgram-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -486,6 +513,7 @@
 				3C8C3E2C1CF3960E0032548C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C8C3E2D1CF3960E0032548C /* Build configuration list for PBXNativeTarget "QuizProgramTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +522,7 @@
 				3C8C3E2F1CF3960E0032548C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C8C3E301CF3960E0032548C /* Build configuration list for PBXNativeTarget "QuizProgramUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +531,7 @@
 				3C8C3E321CF3960E0032548C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -14,13 +14,13 @@ class ViewController: UIViewController {
     @IBOutlet weak var name: UITextField!
     
     @IBAction func startPressed(sender: UIButton) {
-        self.name.resignFirstResponder()
+        //self.name.resignFirstResponder()
     }
     
     
-    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
-        self.view.endEditing(true)
-    }
+//    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
+//        self.view.endEditing(true)
+//    }
     
 
 //    override func viewDidLoad() {
